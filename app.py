@@ -1,5 +1,10 @@
 import streamlit as st
 
+image_path = 'img/taxi.jpeg'
+
+st.write(f'<a href="{image_path}"></a>', unsafe_allow_html=True)
+
+
 '''
 # TaxiFareModel front
 '''
